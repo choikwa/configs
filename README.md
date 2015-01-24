@@ -1,1 +1,3 @@
 # configs
+simple
+test
