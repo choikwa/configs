@@ -11,3 +11,7 @@ set si
 set nowrap
 colorscheme ron
 set background=dark
+set hlsearch
+set ignorecase
+
+
