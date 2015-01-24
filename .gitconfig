@@ -1,0 +1,8 @@
+[user]
+	email = code.kchoi@gmail.com
+	name = Kevin Choi
+
+[alias]
+  send = push
+  recv = pull
+
