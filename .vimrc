@@ -1,3 +1,7 @@
+" simple vimrc by Kevin Choi code.kchoi@gmail.com
+" MIT License
+" https://github.com/choikwa/configs
+
 set expandtab
 set smarttab
 set shiftwidth=2
