@@ -13,5 +13,6 @@ colorscheme ron
 set background=dark
 set hlsearch
 set ignorecase
-
+set pastetoggle=<C-P>
+set showmode
 
