@@ -1,12 +1,12 @@
 [user]
-	email = 
-	name = 
+	email = code.kchoi@gmail.com
+	name = choikwa
 
 [alias]
-  send = push
   rekt = push
-  get = pull
+  up = push
+  down = pull
   st = status
-  up = add -u -v
+  sf = add -u -v  ;stage files
 [push]
 	default = simple
