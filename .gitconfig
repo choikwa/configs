@@ -7,6 +7,7 @@
   up = push
   down = pull
   st = status
-  sf = add -u -v  ;stage files
+  sf = add -u -v    ;stage files
+  cm = commit -a -m ;stage and commit affected, tracked files, needs msg
 [push]
 	default = simple
