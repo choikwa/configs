@@ -4,5 +4,9 @@
 
 [alias]
   send = push
-  recv = pull
-
+  rekt = push
+  get = pull
+  st = status
+  up = add -u -v
+[push]
+	default = simple
