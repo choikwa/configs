@@ -3,11 +3,13 @@
 	name = choikwa
 
 [alias]
+  hist = log --pretty=format:\"%Cblue%h:%Cred%ce: %Cgreen%s\" --name-status --graph
   rekt = push
   up = push
   down = pull
-  st = status
+  st = status --column
   sf = add -u -v    ;stage files
   cm = commit -a -m ;stage and commit affected, tracked files, needs msg
+  ls = ls-files
 [push]
-	default = simple
+	default = upstream
