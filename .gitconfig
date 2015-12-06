@@ -3,7 +3,7 @@
 	name = choikwa
 
 [alias]
-  hist = log --pretty=format:\"%Cblue%h:%Cred%ce: %Cgreen%s\" --name-status --graph
+  hist = log --pretty=format:\"%Cblue%h %<(21,trunc)%ai %Cred%an,%ae %Cgreen%s\" --graph --name-status
   rekt = push
   up = push
   down = pull
