@@ -15,4 +15,4 @@ set hlsearch
 set ignorecase
 set pastetoggle=<C-P>
 set showmode
-
+set laststatus=2
