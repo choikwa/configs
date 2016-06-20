@@ -1,6 +1,6 @@
 [user]
-	email = code.kchoi@gmail.com
-	name = choikwa
+  email = code.kchoi@gmail.com
+  name = choikwa
 
 [alias]
   hist = log --pretty=format:\"%Cblue%h %<(21,trunc)%ai %Cred%an,%ae %Cgreen%s\" --graph --name-status
@@ -11,5 +11,7 @@
   sf = add -u -v    ;stage files
   cm = commit -a -m ;stage and commit affected, tracked files, needs msg
   ls = ls-files
+  br = branch -vv
+  rem = remote -vv
 [push]
-	default = upstream
+  default = upstream
