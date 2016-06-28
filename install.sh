@@ -1,4 +1,4 @@
-mv .bashrc $HOME/
-mv .gitconfig $HOME/
-mv .vimrc $HOME/
+cp .bashrc $HOME/
+cp .gitconfig $HOME/
+cp .vimrc $HOME/
 
