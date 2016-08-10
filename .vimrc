@@ -19,4 +19,4 @@ set laststatus=2
 
 " For use with exuberant-tags
 " searches dir upward until it finds tags file
-set tags=./tags;
+set tags=./.tags;
