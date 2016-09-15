@@ -1,4 +1,5 @@
-cp .bashrc $HOME/
-cp .gitconfig $HOME/
-cp .vimrc $HOME/
+cat .bashrc >>$HOME/.bashrc
+wd=`pwd`
+ln -sf $wd/.gitconfig $HOME/.gitconfig
+ln -sf $wd/.vimrc $HOME/.vimrc
 
