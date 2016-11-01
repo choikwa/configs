@@ -1,1 +1,1 @@
-ctags -R --extra=+f+q . -o .tags
+ctags -R --extra=+f+q -o.tags .
