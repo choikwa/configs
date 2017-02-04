@@ -14,7 +14,8 @@
   br = branch -vv
   rem = remote -vv
   ch = checkout
+  gud = help
 [push]
   default = upstream
 [core]
-	editor = vim
+  editor = vim
